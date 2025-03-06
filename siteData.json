@@ -9,7 +9,7 @@
         "project-team": "Project team",
         "jaylon-tan": "Jaylon Tan",
         "lu-bolin": "Lu Bolin",
-        "johnny-doe": "Johnny Doe",
+        "patrick-thomas": "Patrick Thomas",
         "benjamin-koh": "Benjamin Koh",
         "wang-yanxiang": "Wang Yanxiang"
       },
@@ -160,6 +160,12 @@
     {
       "src": "team/lubolin.md",
       "title": "Lu Bolin's Project Portfolio Page",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/patrickthomas.md",
+      "title": "Patrick Thomas's Project Portfolio Page",
       "headings": {},
       "headingKeywords": {}
     },
