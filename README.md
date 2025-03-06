@@ -10,6 +10,10 @@ This is a CLI-based booking tracker which helps in keeping track of booking deta
 
 ## How does it help?
 
+> If you're wasting time, you're wasting money... and that's just sick.
+>
+> _~ Mr Krabs_
+
 KrustyKrab provides service staff with a centralised platform to allow them to keep track of both customers and their bookings, with an easy command-based interface to allow staff to:
 
 - Add Customers/Bookings
@@ -77,14 +81,13 @@ For more detailed setup instructions, refer to the [Developer Guide](https://ay2
 
 ## Getting help with KrustyKrab
 
-_W-well, I uh... oh barnacles...
-~ Mr Krabs_
+> W-well, I uh... oh barnacles...
+>
+> _~ Mr Krabs_
 
 Feel free to check out our [website](https://ay2425s2-cs2103t-t08-2.github.io/tp/) to clarify any issues you may have.
 
 In the event that that's not enough, feel free to reach out to our development team!
-
-## The Dev Team
 
 ## The Dev Team
 
