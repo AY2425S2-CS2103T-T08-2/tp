@@ -77,8 +77,8 @@ For more detailed setup instructions, refer to the [Developer Guide](https://ay2
 
 ## Getting help with KrustyKrab
 
-_W-well, I uh... oh barnacles... _
-_~ Mr Krabs_
+_W-well, I uh... oh barnacles...
+~ Mr Krabs_
 
 Feel free to check out our [website](https://ay2425s2-cs2103t-t08-2.github.io/tp/) to clarify any issues you may have.
 
@@ -86,22 +86,29 @@ In the event that that's not enough, feel free to reach out to our development t
 
 ## The Dev Team
 
-[Jaylon Tan](https://github.com/jaylontan)
-Lead Developer
+## The Dev Team
+
+### [Jaylon Tan](https://github.com/jaylontan)
+
+**Lead Developer**  
 Avid Spongebob lover
 
-[Benjamin Koh](https://github.com/ben926)
-Backend Beast
+### [Benjamin Koh](https://github.com/ben926)
+
+**Backend Beast**  
 Would like everyone to know he created [Gyatword.com](https://gyatword.com)
 
-[Lu "Bloin" Bolin](https://github.com/LuBolin)
-DevOps Destroyer
+### [Lu "Bloin" Bolin](https://github.com/LuBolin)
+
+**DevOps Destroyer**  
 Has been coding since 2 years old.
 
-[Wang Yanxiang](https://github.com/isawangyx)
-Backend GOAT
+### [Wang Yanxiang](https://github.com/isawangyx)
+
+**Backend GOAT**  
 Here for diversity
 
-[Patrick Thomas](https://github.com/pastchum)
-UI/UX Undertaker
+### [Patrick Thomas](https://github.com/pastchum)
+
+**UI/UX Undertaker**  
 Does not live under a rock in bikini bottom
