@@ -10,7 +10,7 @@
         "jaylon-tan": "Jaylon Tan",
         "lu-bolin": "Lu Bolin",
         "johnny-doe": "Johnny Doe",
-        "jean-doe": "Jean Doe",
+        "benjamin-koh": "Benjamin Koh",
         "wang-yanxiang": "Wang Yanxiang"
       },
       "headingKeywords": {}
@@ -132,6 +132,14 @@
       "title": "",
       "headings": {
         "addressbook-level-3": "AddressBook Level-3"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/benjaminkoh.md",
+      "title": "Benjamin Koh's Project Portfolio Page",
+      "headings": {
+        "project-addressbook-level-3": "Project: AddressBook Level 3"
       },
       "headingKeywords": {}
     },
