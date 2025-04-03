@@ -40,7 +40,7 @@
       "src": "DeveloperGuide.md",
       "title": "Developer Guide",
       "headings": {
-        "ab-3-developer-guide": "AB-3 Developer Guide",
+        "krustykrab-developer-guide": "KrustyKrab Developer Guide",
         "acknowledgements": "Acknowledgements",
         "setting-up-getting-started": "Setting up, getting started",
         "design": "Design",
@@ -58,6 +58,8 @@
         "product-scope": "Product scope",
         "user-stories": "User stories",
         "use-cases": "Use cases",
+        "use-case-add-a-person": "Use Case: Add a Person",
+        "use-case-add-a-booking": "Use Case: Add a Booking",
         "non-functional-requirements": "Non-Functional Requirements",
         "glossary": "Glossary",
         "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
@@ -107,14 +109,17 @@
       "src": "UserGuide.md",
       "title": "User Guide",
       "headings": {
-        "ab-3-user-guide": "AB-3 User Guide",
+        "user-guide": "User Guide",
         "quick-start": "Quick start",
         "features": "Features",
         "viewing-help-help": "Viewing help : help",
-        "adding-a-person-add": "Adding a person: add",
+        "adding-a-person-padd": "Adding a person: padd",
+        "adding-a-booking-badd": "Adding a booking: badd",
         "listing-all-persons-plist": "Listing all persons : plist",
-        "editing-a-person-edit": "Editing a person : edit",
-        "locating-persons-by-name-find": "Locating persons by name: find",
+        "listing-all-persons-blist": "Listing all persons : blist",
+        "editing-a-person-pedit": "Editing a person: pedit",
+        "editing-a-booking-bedit": "Editing a booking: bedit",
+        "finding-persons-by-name-find": "Finding persons by name: find",
         "deleting-a-person-delete": "Deleting a person : delete",
         "clearing-all-entries-clear": "Clearing all entries : clear",
         "adding-a-booking-book": "Adding a booking: book",
@@ -136,7 +141,7 @@
       "src": "index.md",
       "title": "",
       "headings": {
-        "addressbook-level-3": "AddressBook Level-3"
+        "krustykrab": "KrustyKrab"
       },
       "headingKeywords": {}
     },
