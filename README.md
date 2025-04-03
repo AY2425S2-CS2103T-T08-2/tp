@@ -28,17 +28,19 @@ Customer Commands
 
 Booking Commands
 - Add bookings
+- Edit bookings
 - Clear all completed/cancelled bookings
 - Filter bookings by phone number
 - Mark bookings as completed/cancelled/upcoming
 - Display all bookings
 - Display all upcoming bookings
+- Display all bookings for today
 
 ## Getting started
 
 ### Download our Jar file
 
-The Jar file is currently not available. Please check back later for updates.
+You can find our Jar file under [Releases](https://github.com/AY2425S2-CS2103T-T08-2/tp/releases). Download the latest one and test it out! 
 
 ### Forking the Repo
 
