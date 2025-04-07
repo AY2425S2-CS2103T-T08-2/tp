@@ -93,7 +93,87 @@ Examples:
 
 ### Listing all persons : `plist`
 
+<<<<<<< Updated upstream
 Shows a list of all persons in the address book.
+=======
+### Editing a patron: `pedit`
+
+Edits the details of the patron identified by the index number in the displayed patrons list.  
+Existing values will be overwritten by the input values.
+
+Format:  
+`pedit INDEX [n/NAME] [e/EMAIL] [a/ADDRESS] [m/IS_MEMBER] [t/TAG]…​`
+
+<box type="tip" seamless>
+
+**Tips:**
+- `INDEX` refers to the position of the patron in the **last shown patron list** (must be a positive integer).
+- At least one field must be provided.
+- You **cannot edit the phone number** of a patron.
+- `IS_MEMBER` should be `true`/`false`, `1`/ `0`, `yes`/`no` (Case Insensitive).
+- Editing tags will replace all existing tags with the new set. To clear all tags, use `t/` without any value.
+
+</box>
+
+Examples:
+* `pedit 1 e/johndoe@example.com`
+* `pedit 3 a/123 Sunset Way m/true t/friend t/vip`
+* `pedit 2 t/` (clears all tags)
+
+<br>
+
+### Deleting a patron : `pdelete`
+Deletes the specified patron from patrons list.
+
+Format: `pdelete INDEX`
+
+* Deletes the patron at the specified `INDEX`.
+* The index refers to the index number shown in the displayed patrons list.
+* The index **must be a positive integer** 1, 2, 3, …​
+
+<box type="warning" seamless>
+
+**Caution**: Deleting a patron also deletes their associated bookings!
+
+</box>
+
+Examples:
+* `list` followed by `delete 2` deletes the 2nd patron in the patrons list.
+* `find Betsy` followed by `delete 1` deletes the 1st patron in the results of the `find` command.
+
+<br>
+
+### Finding patrons by name: `find`
+
+Finds all patrons whose names contain any of the specified **full-word** keywords (case-insensitive), and displays them as a list with index numbers.
+
+Format:  
+`find KEYWORD [MORE_KEYWORDS]...`
+
+<box type="tip" seamless>
+
+**Tips:**
+- Keyword matching is **case-insensitive** but only matches **whole words**.
+- A keyword must match a full word in the patron’s name (e.g., `alex` matches "Alex Tan" but not "Alexander").
+- You can enter multiple keywords separated by spaces to match more people.
+
+</box>
+
+Examples:
+* `find Alice` (matches "Alice Tan", but not "Malice")
+* `find alex` (matches "Alex Tan", not "Alexander")
+* `find John` returns `john` and `John Doe`
+* `find alex david` returns `Alex Yeoh`, `David Li`
+
+`find alex david`
+![find alex david](images/findAlexDavidResult.png)
+
+<br>
+
+### Listing all patrons : `plist`
+
+Shows a list of all patrons in the patrons list.
+>>>>>>> Stashed changes
 
 Format: `plist`
 

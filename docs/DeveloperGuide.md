@@ -128,14 +128,6 @@ The `Model` component,
 * stores a `UserPref` object that represents the user’s preferences. This is exposed to the outside as a `ReadOnlyUserPref` objects.
 * does not depend on any of the other three components (as the `Model` represents data entities of the domain, they should make sense on their own without depending on other components)
 
-<box type="info" seamless>
-
-**Note:** An alternative (arguably, a more OOP) model is given below. It has a `Tag` list in the `AddressBook`, which `Person` references. This allows `AddressBook` to only require one `Tag` object per unique tag, instead of each `Person` needing their own `Tag` objects.<br>
-
-<puml src="diagrams/BetterModelClassDiagram.puml" width="450" />
-
-</box>
-
 
 ### Storage component
 
@@ -286,6 +278,7 @@ _{Explain here how the data archiving feature will be implemented}_
 
 Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unlikely to have) - `*`
 
+<<<<<<< Updated upstream
 | Priority | As a …​         | I want to …​                                                 | So that I can…​                                            |
 |----------|----------------|--------------------------------------------------------------|------------------------------------------------------------|
 | `* * *`  | service staff  | add a new booking with customer details                      | keep track of upcoming reservations                        |
@@ -318,6 +311,29 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 | `*`      | service staff  | validate member emails                                       | ensure they are in the correct input format                |
 | `*`      | service staff  | quickly duplicate a previous booking                         | save time for repeat customers                             |
 | `* `     | service staff  | view booking trends (e.g., peak hours, popular days)         | prepare for busy periods                                   |
+=======
+| Priority | As a …​         | I want to …​                                               | So that I can…​                                            |
+|----------|----------------|------------------------------------------------------------|------------------------------------------------------------|
+| `* * *`  | restaurant staff  | add a new booking with patron details                    | keep track of upcoming reservations                        |
+| `* * *`  | restaurant staff  | delete a booking                                           | remove cancellations or incorrect entries                  |
+| `* * *`  | restaurant staff  | view a list of all upcoming bookings                       | quickly see my schedule                                    |
+| `* * *`  | restaurant staff  | mark a booking as completed                                | keep track of which patrons have visited                 |
+| `* * *`  | restaurant staff  | add notes to a patron profile                            | remember preferences like seating choices, allergies, etc. |
+| `* * *`  | restaurant staff  | search for a booking using a patron’s phone number | quickly find their reservation details                     |
+| `* * *`  | restaurant staff  | save a new patron’s contact information                  | quickly find their details for future bookings             |
+| `* * *`  | restaurant staff  | edit a patron’s contact details                          | update incorrect or outdated information                   |
+| `* * *`  | restaurant staff  | delete patron contact details                            | maintain an updated list                                   |
+| `* * *`  | restaurant staff  | store data offline                                         | keep all information for future use and tracking           |
+| `* * *`  | restaurant staff  | view all upcoming bookings                                 | prepare for each day                                       |
+| `* *`    | restaurant staff  | delete all completed bookings                              | clear unnecessary backlogs                                 |
+| `* *`    | restaurant staff  | edit an existing booking                                   | update details when a patron changes their reservation   |
+| `* *`    | restaurant staff  | sort bookings by date or time                              | find what I need quickly                                   |
+| `* *`    | restaurant staff  | filter bookings by date                                    | see only the relevant reservations                         |
+| `* *`    | restaurant staff  | view a summary of today’s bookings on the homepage         | see important details at a glance                          |
+| `* *`    | restaurant staff  | tag VIP or frequent patrons                              | provide them with special perks or greetings               |
+| `* *`    | restaurant staff  | save member emails for follow-up emails                    | send reservation reminders and encourage repeat visits     |
+| `* * `   | restaurant staff  | see the number of bookings for each day                    | know how busy it will be                                   |
+>>>>>>> Stashed changes
 
 ### Use cases
 
